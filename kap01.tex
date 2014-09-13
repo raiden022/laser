@@ -1,4 +1,4 @@
-\chapter{Theorie}
+\chapter{Theoretische Grundlagen}
 
 
 \section{Energieübergänge in Rubidium} \label{sec:linien}
@@ -19,7 +19,7 @@ die einer Lichtwellenlänge von 780 nm entspricht.
   \center
   \includegraphics[width=0.85\textwidth]{./Rb-D2-Hyperfein.pdf}
   \caption{Hyperfeinstruktur der D2-Linie der Isotope $^{85}\text{Rb}$ und
-  			$^{87}\text{Rb}$}
+  			$^{87}\text{Rb}$ ([1])}
 	\label{fig:rbd2hyperfein}
 \end{figure}
 
@@ -46,10 +46,10 @@ die Form eines Lorentzprofils.
 Wenn ein Vielteilchensystem aus Alkali-Atomen mit der Sättigungsintensität
 $I_{\text{sat}}$, die für feste Frequenzen einwirkenden
 Lichts als Zwei-Niveau-Systeme betrachtet werden können, mit einem monochromatischen
-nahresonanten Laserfeld der Intensität $I$ wechselwirkt, dann gilt für die 
-Anregungswahrscheinlichkeit $\rho$
+nahresonanten Laserfeld der Intensität $I$ wechselwirkt, dann ist die 
+Anregungswahrscheinlichkeit
 \begin{equation} \label{eq:lorentz}
-	\rho = \frac{1}{2}\frac{s}{\delta^2+(\frac{\Gamma}{2})^2}
+	\rho = \frac{1}{2}\frac{s}{\delta^2+(\frac{\Gamma}{2})^2} \text{ .}
 \end{equation}
 
 Hier ist $\delta$ der Frequenzabstand des Laserlichts von der \emph{eigentlichen}
@@ -75,14 +75,14 @@ $1+\sqrt{1+s}$ beschrieben wird, d.h.
 	\Gamma = \gamma(1+\sqrt{1+s}).
 \end{equation}
 
-Für Herleitungsansätze siehe [2].
+Für Herleitungsansätze sei auf [2] verwiesen.
 
 
 \subsection{Dopplerverbreiterung}
 
 Darüber hinaus gibt es eine weitere Art der Verbreiterung der gemessenen
 Absorptionslinien,
-wenn ein Gas aus Atomen der Masse $m$ mit einer Temperatur $T$ spektroskopiert
+wenn ein Gas aus Atomen der Masse $m$ mit Temperatur $T$ spektroskopiert
 wird,
 die in ihrem Ausmaß die oben diskutierten Breiten bei Raumtemperatur
 dominiert, die wir im ersten Versuchsteil beobachten und die mit der Methode,
@@ -96,7 +96,7 @@ $\Delta \nu$ dieser Verteilung sinkt und steigt also mit der Temperatur $T$ des
 Gases. Bei der Spektroskopie des Gases entsteht dann die gleiche Verteilung als
 Form der gemessenen Spektrallinien. Wenn $\nu$ die Anregungsfrequenz ist, hat man
 \begin{equation}
-	\Delta \nu = 2 \frac{\nu}{c} \sqrt{\frac{k_B T}{m}2\ln{2}}
+	\Delta \nu = 2 \frac{\nu}{c} \sqrt{\frac{k_B T}{m}2\ln{2}} \ .
 \end{equation}
 
 Da sich hieraus für Rubidium bei Raumtemperatur Breiten ca. über 500 MHz
@@ -118,11 +118,11 @@ Linien der Hyperfeinstruktur aus Abbildung \ref{fig:rbd2hyperfein} auflösen
 können.
 
 Es gibt eine Methode, bei der man Rubidium-Gas bei Raumtemperatur
-absorptionsspektroskopiert, mit der man das kann:
+absorptionsspektroskopiert, mit der man das kann, die im Folgenden beschrieben wird.
 
-Hierzu wird dem Teststrahl, der das Gas von einer Seite durchdringt
+Dem Teststrahl, der das Gas von einer Seite durchdringt
 (und von dem im ersten Versuchsteil schlicht die Transmission
-aufgenommen wird) ein weiterer sogenannter Pumpstrahl mit gleicher
+aufgenommen wird) wird ein weiterer sogenannter Pumpstrahl mit gleicher
 Frequenz hinzugefügt,
 der das Gas von der anderen Seite trifft und mit dem Teststrahl überlappt.
 Der Pumpstrahl hat eine wesentlich höhere Intensität als der Teststrahl und
@@ -135,8 +135,8 @@ Crossover-Resonanzen) unterschiedliche
 Geschwindigkeitsklassen von Atomen an (wenn überhaupt), und daher bleibt dort
 das dopplerverbreiterte Spektrum aus dem ersten Versuchsteil unverändert.
 Wenn die Laserfrequenz eine Anregungsfrequenz trifft, dann werden die 
-Grundzustände der Atome mit keiner Geschwindigkeit projiziert auf die Laserstrahlen
-entvölkert und der Teststrahl wird transmittiert, anders als im reinen
+Grundzustände der projiziert auf die Laserstrahlen ruhenden Atome durch den
+Pumpstrahl entvölkert und der Teststrahl wird transmittiert, anders als im reinen
 dopplerverbreiterten Spektrum und wird dem Transmissionspektrum daher hinzugefügt.
 Die durch die
 Zimmertemperatur verursachte Dopplerverbreiterung wird hier also durch die Bedingung,
@@ -155,7 +155,7 @@ dies auch tut und den verantwortlichen Grundzustand entvölkert, sodass der Tests
 wie bei den echten Resonanzfrequenzen auch transmittiert wird.
 
 
-\section{}
+\section{Messmethoden}
 
 \subsection{Fabry-Pérot-Interferometer}
 
@@ -175,5 +175,51 @@ ausnutzen. Die Resonanzen, die man hinter dem Resonator bei bestimmten Frequenze
 beobachtet, haben wegen der endlichen Lebensdauer der Photonen innerhalb
 des Resonators eine gewisse endliche Breite.
 
-\subsection{}
+\subsection{Intensität und Leistung des Laserstrahls}
 
+Wir nehmen an, dass die Intensität des im Versuch verwendeten Laserstrahls entlang
+transversaler Richtungen gaußverteilt ist mit den halben $\frac{1}{e^{2}}$--Breiten
+$w_x$ und $w_y$ in horizontaler bzw. vertikaler Richtung:
+\begin{equation}	\label{eq:intensitaet}
+	I(x,y) =
+	I_0 \exp{\left(-\frac{2x^2}{w_x^2}\right)} \exp{\left(-\frac{2y^2}{w_y^2}\right)}
+\end{equation}
+
+Für die Leistung $P$ des Laserstrahls gilt dann
+\begin{equation}
+	P = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty}
+		I_0
+		\exp{\left(-\frac{2x'^2}{w_x^2}\right)} \exp{\left(-\frac{2y'^2}{w_y^2}\right)}
+		dx' dy'
+	  = \frac{\pi}{2} w_x w_y I_0	\nonumber
+\end{equation}
+und somit, wenn man dem Strahl der Einfachheit halber \emph{einen} Wert $I$ für die
+Intensität zuordnet
+und dafür das Intensitätsmaximum $I_0$ in der Strahlmitte wählt,
+\begin{equation}	\label{eq:intensitaetleistung}
+	I = \frac{2P}{\pi w_x w_y} \text{ .}
+\end{equation}
+
+Wenn der Strahl mit Intensität nach \eqref{eq:intensitaet} von einer Seite aus vertikaler
+Richtung durch eine Klinge mit horizontaler Kante -- mit Position $y$ relativ
+zur Strahlmitte (in die Richtung, in die sie hineingeschoben wird) -- abgedeckt wird,
+dann ist die übrigbleibende Leistung
+\begin{equation}
+	\begin{split}
+	P_y &= \int_y^{\infty} \int_{-\infty}^{\infty}
+		I_0
+		\exp{\left(-\frac{2x'^2}{w_x^2}\right)} \exp{\left(-\frac{2y'^2}{w_y^2}\right)}
+		dx' dy' \\
+	  &= I_0
+	  \left(\int_{-\infty}^{\infty} \exp{\left(-\frac{2x'^2}{w_x^2}\right)} dx' \right)
+	  	\frac{\sqrt{\pi}w_y}{2\sqrt{2}}
+		\left( 1-\text{erf}\left(\frac{\sqrt{2}y}{w_y}\right) \right) \\
+	  &\propto 1-\text{erf}\left(\frac{\sqrt{2}y}{w_y}\right)
+	\end{split}
+\end{equation}
+
+und analog gilt für die Leistung bei einer vertikalen Klinge aus horizontaler Richtung
+
+\begin{equation}
+	P_x \propto 1-\text{erf}\left(\frac{\sqrt{2}x}{w_x}\right) \text{.}
+\end{equation}
