@@ -1,0 +1,58 @@
+%  DOCUMENT CLASS
+% \documentclass[a4paper,12pt,twoside,chapterprefix=false]{scrreprt}
+\documentclass[a4paper,12pt,oneside,chapterprefix=false]{scrreprt}
+%PACKAGES
+\usepackage[latin1]{inputenc}  % Quelltext ist ISO-8859-1 codiert
+\usepackage[ngerman]{babel}
+\usepackage[reqno,fleqn]{amsmath}
+\setlength\mathindent{10mm}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+% \usepackage{extarrows}
+\usepackage{fancyhdr}
+\usepackage{units}
+% \usepackage{fourier,eurosym} funktioniert nicht auf Physnet-Rechnern
+\usepackage{fourier, eurosym}
+\usepackage{syntax}
+\usepackage{amstext}    % defines the \text command
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+
+
+% FORMATIERUNG
+\usepackage[paper=a4paper,left=30mm,right=25mm,top=30mm,bottom=35mm]{geometry}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1.5mm plus1mm minus1.5mm}
+\addtokomafont{sectioning}{\rmfamily}
+
+%-zusaetzliche Kommandos und Abkuerzungen aus externer Datei
+\include{command}
+
+\begin{document}
+% Seitennummerierung für Titel, Widmung, Danksagung, Zusammenfassung
+% und Inhaltsverzeichnis werden in roemischen Zahlen gesetzt
+% \renewcommand{\thepage}{\roman{page}} % Roman page numbers
+
+% Titelblatt
+\include{titlepage}
+\maketitle
+
+% Inhalts-, Abbildungs*-, Tabellen*-Verzeichnis
+\tableofcontents
+% \newpage
+
+% \renewcommand{\thepage}{\arabic{page}} % Arabic page numbers
+% \setcounter{page}{1}
+
+% Kapitel
+\include{kap01}
+\include{kap02}
+\include{kap03}
+% Literaturverzeichnis mit File literatur.tex
+\include{literatur}
+
+\end{document}
+

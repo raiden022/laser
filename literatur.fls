@@ -1,0 +1,9 @@
+PWD /Users/vincent/Documents/physikbachelor/1414ss/fprakt/Laser/git/Laser
+INPUT /usr/local/texlive/2011/texmf.cnf
+INPUT /usr/local/texlive/2011/texmf/web2c/texmf.cnf
+INPUT /usr/local/texlive/2011/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT literatur.tex
+OUTPUT literatur.log
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
