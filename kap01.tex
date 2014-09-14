@@ -199,6 +199,8 @@ und dafür das Intensitätsmaximum $I_0$ in der Strahlmitte wählt,
 \begin{equation}	\label{eq:intensitaetleistung}
 	I = \frac{2P}{\pi w_x w_y} \text{ .}
 \end{equation}
+Dies führt natürlich zu einer Überschätzung der Intensität, bzw. einer Unterschätzung
+der Leistung.
 
 Wenn der Strahl mit Intensität nach \eqref{eq:intensitaet} von einer Seite aus vertikaler
 Richtung durch eine Klinge mit horizontaler Kante -- mit vertikaler Position $y$ relativ
@@ -213,11 +215,13 @@ abgedeckt wird, dann ist die übrigbleibende Leistung
 	  &= I_0
 	  \left(\int_{-\infty}^{\infty} \exp{\left(-\frac{2x'^2}{w_x^2}\right)} dx' \right)
 	  	\frac{\sqrt{\pi}w_y}{2\sqrt{2}}
-		\left( 1-\text{erf}\left(\frac{\sqrt{2}y}{w_y}\right) \right) \\
+		\left( 1-\text{erf}
+		 \footnotemark\left(\frac{\sqrt{2}y}{w_y}\right) \right) \\
 	  &\propto 1-\text{erf}\left(\frac{\sqrt{2}y}{w_y}\right)
 	\end{split}
 \end{equation}
-
+\footnotetext{erf$(x) := \frac{2}{\sqrt{\pi}} \int_0^x \exp{(-t^2)}\,dt
+	\ \text{ für }x\in\mathbb{R}$}
 und analog gilt für die Leistung bei einer vertikalen Klinge aus horizontaler Richtung
 
 \begin{equation}
