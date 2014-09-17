@@ -1,4 +1,4 @@
-\chapter{Versuchaufbau/Durchführung}
+\chapter{Versuchsaufbau und -durchführung}
 \section{Dopplerspektroskopie}
 
 \begin{figure}[ht]
@@ -6,31 +6,31 @@
   \includegraphics[width=0.85\textwidth]{./aufbau.png}
   \caption{Schematischer Aufbau Dopplerspektroskopie}
 \end{figure}
-Der Laserstrahl trifft durch eine Faraday-Diode (FI) auf ein Prisma (AP), welches die elliptischen Strahlform korrigiert. 
+Der Laserstrahl trifft durch eine Faraday-Diode (FI) auf ein Prisma (AP), welches die elliptische Strahlform korrigiert. 
 
-Die Faraday-Diode soll Rückreflexionen auf die Laserquelle blockieren um daraus resultierende Störquellen zu vermeiden. 
-An dem Strahlteiler BS1 wird ein Teil des Strahles reflektiert , durch einen Fabry-Pérot-Interferometer in eine Photodiode geworfen. 
-Da das FPI nur in gleichen diskreten Frequenzabschnitten einfallendes Licht wieder aussendet kann man damit den Frequenzbereich, 
-den der Laser abfährt skalieren.
+Die Faraday-Diode soll Rückreflexionen auf die Laserquelle blockieren, um daraus resultierende Störquellen zu vermeiden. 
+An dem Strahlteiler BS1 wird ein Teil des Strahles reflektiert und durch ein Fabry-Pérot-Interferometer in eine Photodiode geworfen. 
+Da das FPI nur in gleichen diskreten Frequenzabschnitten einfallendes Licht durchlässt, kann man damit den Frequenzbereich, 
+den der Laser abfährt, skalieren.
 
-Der Hauptteil des Strahles mit dem wir experimentieren werden wird von einem Spiegel
+Der Hauptteil des Strahles, mit dem wir experimentieren werden, wird von einem Spiegel
 reflektiert und durch ein \( \frac{\lambda}{2} \)-Plättchen (WP1) auf ein Polarisationsstrahlteiler (PBS1) geschickt.
 
 Der PBS reflektiert s-polarisiertes Licht und lässt p-polarisiertes Licht transmittieren. 
 
 Drehen wir am \( \frac{\lambda}{2} \)-Plättchen das Intensitätsverhältnis der beiden Strahlen und können damit die Intensität des p-polarisierten Strahles deutlich absenken.
 
-Dieser Strahl trifft nochmal auf ein WP/PBS Paar und wird in 2 Strahlen gleicher Intensität aufgeteilt. 
-Der Teststrahl trifft auf die Rubidiuumzelle und wird teilweise absorbiert, teilweise transmittiert er. 
+Dieser Strahl trifft nochmal auf ein WP/PBS-Paar und wird in zwei Strahlen gleicher Intensität aufgeteilt. 
+Der Teststrahl trifft auf die Rubidiumzelle und wird teilweise absorbiert und teilweise transmittiert. 
 Der Referenzstrahl trifft dann zusammen mit dem Teststrahl auf eine differentielle Photodiode. 
-Die in Ihr absorbierten Strahlen werden in Spannungen umgewandelt und voneinander abgezogen, sodass man 
+Die beiden von ihr absorbierten Strahlen werden in Spannungen umgewandelt und voneinander abgezogen, sodass man 
 als resultierende Spannung am Oszilloskop das absorbierte Spektrum sehen kann.
 
 
-In der Versuchsdurchführung haben wir uns am Oszilloskop zunächst das Signal am FPI angeguckt ob wir saubere Peaks zu sehen bekommen,
+In der Versuchsdurchführung haben wir uns am Oszilloskop zunächst das Signal am FPI angeguckt ob wir saubere Resonanzen zu sehen bekommen,
 teilweise war der Untergrund etwas verrauscht und man hatte neben den Hauptpeaks kleinere Nebenpeaks. Das ist ein Hinweis darauf, 
-dass der Laser nicht nur monochromatisches Licht aussendet und dies kann behoben werden indem man dem Strom des Lasers variiert. 
-Der Wellenlängenbereich in dem der Laser Strahlung emittiert wurde solange variiert bis man die erwarteten 4 dopplerverbreiteten 
+dass der Laser nicht nur monochromatisches Licht aussendet, und es kann behoben werden, indem man dem Strom des Lasers variiert. 
+Der Wellenlängenbereich, in dem der Laser Strahlung emittiert, wurde solange variiert bis man die erwarteten vier dopplerverbreiteten 
 Emissionspeaks zu sehen bekam. 
 
 Beide Signale wurden aufgenommen und mit Origin verwertet, Näheres dazu wird in der Auswertung erläutert. 
@@ -47,31 +47,30 @@ Im zweiten Versuchsteil haben wir den selben Aufbau verwendet und etwas modifizi
 
 Anstatt den p-polarisierten Strahl am PBS1 abzublocken, nutzt man die um Größenordnungen
 höhere Intensität als Pumpstrahl. Er soll möglichst auf der gleichen Geraden wie der Teststrahl durch die Rubidiumzelle 
-laufen um die zu messenden Hyperfeinstrukturlinien zu sättigen. 
+laufen, um die zu messenden Hyperfeinstrukturlinien zu sättigen. 
 
-Dafür wird der Strahl mit zwei Spiegeln auf PBS3 geworfen der mittig in die Bahn des Teststrahles zwischen Zelle und Photodiode
+Dafür wird der Strahl mit zwei Spiegeln auf PBS3 geworfen, der mittig in die Bahn des Teststrahles zwischen Zelle und Photodiode
 positioniert wird. Den Pumpstrahl lässt er transmittieren oder reflektiert ihn auf die Teststrahlgerade, je nach dem wie er polarisiert ist.
 
-Den Teststrahl lässt er im Idealfall unberührt transmittieren, da er bereichts durch PBS2 p-polarisiert ist.
+Den Teststrahl lässt er im Idealfall unberührt transmittieren, da er bereits durch PBS2 p-polarisiert ist.
 
-Mit einem weiteren \( \frac{\lambda}{2} \)-Plättchen, das zwischen Spiegel M3 und PBS3 gestellt wird kann die Intensität des Pumpstrahles variiert werden, 
-dies wird für die Messung der Sättigungsintensität benötigt.
+Mit einem weiteren \( \frac{\lambda}{2} \)-Plättchen, das zwischen Spiegel M3 und PBS3 gestellt wird, kann die Intensität des Pumpstrahles variiert werden. Dies wird für die Messung der Sättigungsintensität benötigt.
 
 Da der Transmissionsunterschied zu der vorherigen Messung in den gesättigten Hyperfeinstrukturlinien liegt,
-ist es sinnvoll eine weitere Rubidiumzelle in den Referenzstrahl zu stellen um am Oszilloskop die Linien zu sehen.
+ist es sinnvoll eine weitere Rubidiumzelle in den Referenzstrahl zu stellen, um am Oszilloskop die Linien zu sehen.
 
 
-Nachdem der Aufbau für den zweiten Versuchteil justriert wurde und man die erwarteten 3 Hyperfeinstreinstrukterpeaks 
+Nachdem der Aufbau für den zweiten Versuchteil justiert wurde und man die erwarteten 3 Hyperfeinstreinstrukterpeaks 
 und 3 Crossover-peaks am Oszilloskop sehen kann, fängt man mit der Vermessung der Strahlgröße an.
 
-Zwischen Spiegel M2 und M3 haben wir eine Rasiermesserklinge befestigt an einem Gerüst plaziert. Diese kann man 
+Zwischen Spiegel M2 und M3 haben wir eine Rasiermesserklinge an einem Gerüst befestigt platziert. Diese kann man 
 in den Strahl positionieren, sodass er einen Teil der Leistung des Strahls abhängig von seiner Position abfängt. 
 Hinter der Klinge haben wir die Strahlleistung gemessen und diese zusammen mit der Position in einer Tabelle eingetragen.
 Das haben wir jeweils für die horizontale und die vertikale Strahlbreite (\(w_x, w_y\)) gemacht, da wir davon ausgingen, dass der
-Strahl nicht perfekt kreisförmig sondern auch ellyptische Tendenzen haben kann.
+Strahl nicht perfekt kreisförmig ist, sondern eventuell leicht elliptisch.
 
 
-In der nächstes Messreihe haben wir die Leistung des Pumpstrahls im Bereich von 20 bis 800 \(µW\) variiert 
-und die Peaks der 78 2D linie am Oszilloskop aufgenommen.
+In der nächsten Messreihe haben wir die Leistung des Pumpstrahls im Bereich von 20 bis 800 \(µ\)W variiert 
+und die Peaks der 78-D2-linie am Oszilloskop aufgenommen.
 
 Die Daten haben wir mit Origin verwertet und die natürliche Linienbreite und die Sättigungsintensität bestimmt.
