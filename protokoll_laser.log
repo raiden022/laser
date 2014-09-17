@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  17 SEP 2014 17:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  17 SEP 2014 19:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -886,22 +886,79 @@ File: ./dopplerfit-plot.pdf Graphic file (type pdf)
 <use ./dopplerfit-plot.pdf>
 Package pdftex.def Info: ./dopplerfit-plot.pdf used on input line 40.
 (pdftex.def)             Requested size: 441.01773pt x 312.17938pt.
-) [12 <./xumskalierung.pdf>] [13 <./dopplerfit-plot.pdf>]
+ [12 <./xumskalierung.pdf>]
+<./xstrahlbreite.pdf, id=80, 763.24521pt x 511.8384pt>
+File: ./xstrahlbreite.pdf Graphic file (type pdf)
+
+<use ./xstrahlbreite.pdf>
+Package pdftex.def Info: ./xstrahlbreite.pdf used on input line 92.
+(pdftex.def)             Requested size: 441.01773pt x 295.75745pt.
+
+<./ystrahlbreite.pdf, id=81, 794.18753pt x 507.97064pt>
+File: ./ystrahlbreite.pdf Graphic file (type pdf)
+
+<use ./ystrahlbreite.pdf>
+Package pdftex.def Info: ./ystrahlbreite.pdf used on input line 95.
+(pdftex.def)             Requested size: 441.01773pt x 282.08981pt.
+
+Overfull \hbox (4.96799pt too wide) in paragraph at lines 92--97
+[][]
+ []
+
+
+Overfull \hbox (4.96799pt too wide) in paragraph at lines 92--97
+[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 2.27327pt on input line 99.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./dopplerfit-plot.pdf>] [14 <./xstrahlbreite.pdf> <./ystrahlbreite.pdf>]
+Overfull \hbox (5.62236pt too wide) in paragraph at lines 103--115
+\T1/futs/m/n/12 die drei Crossover-Resonanzen, ei-ner Gauÿ-Funktion zur Nä-he-r
+ung des Si-gnal-un-ter-grunds
+ []
+
+<./400uW.pdf, id=147, 764.69307pt x 535.57433pt>
+File: ./400uW.pdf Graphic file (type pdf)
+ <use ./400uW.pdf>
+Package pdftex.def Info: ./400uW.pdf used on input line 117.
+(pdftex.def)             Requested size: 441.01773pt x 308.8763pt.
+ [15
+
+ <./400uW.pdf>] <./mitformelfit.pdf, id=163, 845.1575pt x 598.235pt>
+File: ./mitformelfit.pdf Graphic file (type pdf)
+
+<use ./mitformelfit.pdf>
+Package pdftex.def Info: ./mitformelfit.pdf used on input line 133.
+(pdftex.def)             Requested size: 441.01773pt x 312.17938pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]\T1/futs/m/n/12 Halbwertsbreiten $\FML/futm/m/it/12 ^^@$ \T1/futs/m/n/12 der 
+Lorentz-Resonanzen in Ab-hän-gig-keit der
+ []
+
+) [16
+
+ <./mitformelfit.pdf>]
 \openout2 = `literatur.aux'.
 
  (./literatur.tex
 Kapitel 4.
-) [14
+) [17
 
 
 
 ] (./protokoll_laser.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
 (./kap03.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 6337 strings out of 493633
- 89984 string characters out of 3143378
- 175779 words of memory out of 3000000
- 9405 multiletter control sequences out of 15000+200000
+ 6364 strings out of 493633
+ 90500 string characters out of 3143378
+ 175852 words of memory out of 3000000
+ 9428 multiletter control sequences out of 15000+200000
  105024 words of font info for 136 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,14n,49p,494b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -914,10 +971,10 @@ r/fourier-ml.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier
 r/fourier-ms.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/p
 utb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putr8a.p
 fb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on protokoll_laser.pdf (14 pages, 2526568 bytes).
+Output written on protokoll_laser.pdf (17 pages, 2985862 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 201 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

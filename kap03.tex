@@ -53,17 +53,94 @@ Abstände der Resonanzen aus der Literatur [2] bekannt sind.
 
 Wir erhalten somit:
 \begin{equation}
-	w = (406,5 \pm 0,8) \text{ MHz}
+	w = (406,5 \pm 0,8) \text{ MHz} \nonumber
 \end{equation}
 
 Mit Gleichung \eqref{eq:gausstemp} ergibt sich daraus für die Temperatur des Rb-Gases
 \begin{equation}
-	T = (434,46 \pm 1,7) \text{ K}
+	T = (434,46 \pm 1,7) \text{ K} \nonumber
 \end{equation}
 
 
 
 \section{Dopplerfreie Sättigungsspektroskopie}
 
-\subsection{Messung der Strahlgröße}
+\subsection{Messung der Strahltaille}
 
+In Abbildung \ref{fig:strahlbreite} sind die Messergebnisse der Leistungen $P_x$ und $P_y$
+des durchgelassenen
+Laserstrahls bei teilweiser Abdeckung durch die Rasierklinge mit Positionen $x$ aus
+horizontaler Richtung bzw. $y$ aus vertikaler Richtung dargestellt. Die Nullpunkte
+von $x$ und $y$ sind beliebig und irrelevant für die Auswertung.
+
+Ebenfalls in Abbildung \ref{fig:strahlbreite} zu sehen sind die Fits der Messpunkte mit
+Fehlerfunktionen nach \eqref{eq:yerrfct} und \eqref{eq:xerrfct}.
+
+Aus den Fits ergeben sich die halben $\frac{1}{e^2}$--Breiten $w_x$ und $w_y$ der
+als transversal gaußförmig verteilt angenommenen Intensität des Laserstrahls:
+
+\begin{equation}
+	\begin{split}
+	w_x &= (1,60 \pm 0,09) \text{ mm} \\
+	w_y &= (1,51 \pm 0,014) \text{ mm}
+	\end{split} \nonumber
+\end{equation}
+
+\begin{figure}[!h]
+  \subfigure[Strahlabdeckung aus horizontaler Richtung $x$]{
+  	\includegraphics[width=1\textwidth]{./xstrahlbreite.pdf}
+  }
+  \subfigure[Strahlabdeckung aus horizontaler Richtung $y$]{
+  	\includegraphics[width=1\textwidth]{./ystrahlbreite.pdf}
+  }
+  \caption{Messung der durchgelassenen Leistung bei Abdeckung durch eine Rasierklinge
+  	  			in Schwarz; Fit mit Fehlerfunktion in Rot}
+\label{fig:strahlbreite}
+\end{figure}
+\clearpage
+\subsection{Bestimmung der natürlichen Linienbreite und Sättigungsintensität}
+
+Mithilfe der oben bestimmten Strahlbreiten $w_x$ und $w_y$ und Gleichung
+\eqref{eq:intensitaet} können wir den verschiedenen Leistungen des Pumpstrahls,
+zu denen wir jeweils das 87F2-Spektrum aufgenommen haben, die entsprechenden
+Pumpstrahl-Intensitäten zuordnen.
+Jedes zu den verschiedenen Intensitäten aufgenommene Spektrum wird mit
+einer Summe von sechs Lorentzprofilen mit gleichen Halbwertsbreiten für
+die drei Energieübergänge und die drei Crossover-Resonanzen, einer
+Gauß-Funktion zur Näherung des Signaluntergrunds und einer konstanten Verschiebung gefittet.
+Dabei sind die Verhältnisse
+der Abstände der sechs Resonanzen aus der Literatur [2] und Theorie bekannt.
+In Abbildung \ref{fig:400mukrow} ist beispielhaft die Messung bei der
+Pumpstrahlleistung 400 $\mu$W zusammen mit dem Fitergebnis dargestellt.
+
+\begin{figure}[!h]
+  	\includegraphics[width=1\textwidth]{./400uW.pdf}
+  \caption{Messung der Aufspaltung der 87F2-Linie bei Pumpstrahlleistung 400 $\mu$W}
+\label{fig:400mukrow}
+\end{figure}
+
+Wir erhalten also zu jeder Leistung $P$ des Pumpstrahls durch den Fit des
+entsprechenden Spektrums als Parameter die volle
+Halbwertsbreite $\Gamma$ der leistungsverbreiterten Resonanzen, die nach Gleichung
+\eqref{eq:mitformel} von $I$ abhängt, welches wiederum nach \eqref{eq:intensitaet} von
+$P$ abhängt. Durch einen Fit der Messwertepaare $(P,\Gamma)$
+mit dem theoretischen Verlauf nach \eqref{eq:mitformel} und \eqref{eq:intensitaet}
+werden dann die natürliche
+Linienbreite $\gamma$ und die Sättigungsintensität $I_{\text{sat}}$ von Rubidium bestimmt.
+\clearpage
+
+\begin{figure}[!h]
+  	\includegraphics[width=1\textwidth]{./mitformelfit.pdf}
+    \caption{Halbwertsbreiten $\Gamma$ der Lorentz-Resonanzen in Abhängigkeit der
+			Pumpstrahlleistung $I$, Fit durch den theoretischen Verlauf
+			nach \eqref{eq:mitformel}.}
+\label{fig:mitformelfit}
+\end{figure}
+Wir erhalten:
+
+\begin{equation}
+	\begin{split}
+	\gamma &= (7,02 \pm 0,12) \text{ MHz} \\
+	I_{\text{sat}} &= (7,6 \pm 0,8) \frac{\text{mW}}{\text{cm}^2}
+	\end{split} \nonumber
+\end{equation}
