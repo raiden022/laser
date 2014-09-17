@@ -3,15 +3,67 @@
 \section{Dopplerverbreitertes Spektrum}
 
 \begin{figure}[ht]
-  \subfigure[bla1]{
-  \includegraphics[width=0.9\textwidth]{./dopplerspektrum-roh.pdf}
-  \caption{Die Spannung der differentiellen Photodiode (dargestellt als Intensität $I$
+  \includegraphics[width=0.9\textwidth]{./dopplerspektrum-messung.pdf}
+  \caption{Die Spannung der differentiellen Photodiode (proportional zur Intensität
   		    des durch die Rb-Zelle transmittierten Lichts in willkürlichen Einheiten)
+			und entsprechend die Spannung hinter dem Fabry-Pérot-Resonator
 		    aufgetragen gegen die Zeit $t$, während der der Frequenzbereich des Lasers 
 			durchgefahren wird, ebenfalls in willkürlichen Einheiten.}
-  }
 \label{fig:dopplerroh}
 \end{figure}
 
-In Abbildung \ref{fig:dopplerroh} sind die vom Oszilloskop aufgenommenen rohen Messdaten
-dargestellt.
+In Abbildung \ref{fig:dopplerroh} sind die vom Oszilloskop aufgenommenen Messdaten
+dargestellt. Zu sehen sind von links nach rechts die 85F2-, 85F3- und 87F2-Resonanzen
+(85F2 heisst hier z.B. die Überlagerung der drei Übergänge vom $F=2$--Grundniveau des
+$^{85}\text{Rb}$--Isotops)
+
+Die Resonanzen des Fabry-Pérot-Signals entsprechen konstanten Frequenzabständen und dies
+wird als Grundlage für einen Fit durch ein Polynom dritten Grades $f$ genutzt
+(fünf Messpunkte $(t_i,f(t_i))$ bei den Zeitpunkten $t_i$ der Resonanzen mit
+gleichem $f(t)$-Abstand), siehe Abbildung \ref{fig:xumskalierung}.
+\begin{figure}[!ht]
+  \includegraphics[width=1\textwidth]{./xumskalierung.pdf}
+  \caption{Umskalierung der Messzeitachse zur Frequenzachse}
+\label{fig:xumskalierung}
+\end{figure}
+Wenn dann das Dopplerspektrum $I$ gegen $f(t)$ aufgetragen wird, stimmt die Skalierung
+bis auf eine lineare Umskalierung, die abschliessend durch Kenntnis der Position und
+Abstände der Spektrallinien erfolgt. Vor dieser linearen Umskalierung werden die
+$(I,f(t))$--Daten durch eine Summe von zwei Überlagerungen für die 85F2- und
+85F3-Resonanzen
+aus jeweils drei Gaußprofilen
+mit gleicher Breite (die nach \eqref{eq:gausstemp} der Temperatur des Rb-Gases entspricht)
+und durch Literaturwerte [2] vorgegebene Amplitudenverhältnisse und einer beliebigen
+Gaußfunktion für die rechte 87F2-Resonanz gefittet.
+
+\begin{figure}[ht]
+  \includegraphics[width=1\textwidth]{./dopplerfit-plot.pdf}
+  \caption{Gemessenes Dopplerspektrum in willkürlichen Einheiten gegen die
+  		umskalierte $f(t)$--Achse in Schwarz; Fit in Rot}
+\label{fig:dopplerfit}
+\end{figure}
+
+Aus dem Fit ergibt sich eine gemeinsame halbe $\frac{1}{e}$--Breite $w$ der überlagerten
+Gaußprofile für die 85F2- und 85F3-Resonanzen in Einheiten der $f(t)$--Achse als Parameter
+des Fits, aus der
+wir die volle Halbwertsbreite in MHz durch Umrechnung der Breitenarten
+(halbe $\frac{1}{e}$--Breite in volle Halbwertsbreite) und
+Skalierung erhalten, da die wahren relativen
+Abstände der Resonanzen aus der Literatur [2] bekannt sind.
+
+Wir erhalten somit:
+\begin{equation}
+	w = (406,5 \pm 0,8) \text{ MHz}
+\end{equation}
+
+Mit Gleichung \eqref{eq:gausstemp} ergibt sich daraus für die Temperatur des Rb-Gases
+\begin{equation}
+	T = (434,46 \pm 1,7) \text{ K}
+\end{equation}
+
+
+
+\section{Dopplerfreie Sättigungsspektroskopie}
+
+\subsection{Messung der Strahlgröße}
+
