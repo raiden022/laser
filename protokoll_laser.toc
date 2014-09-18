@@ -15,5 +15,7 @@
 \contentsline {section}{\numberline {3.1}Dopplerverbreitertes Spektrum}{11}
 \contentsline {section}{\numberline {3.2}Dopplerfreie S\"attigungsspektroskopie}{13}
 \contentsline {subsection}{\numberline {3.2.1}Messung der Strahltaille}{13}
-\contentsline {subsection}{\numberline {3.2.2}Bestimmung der nat\"urlichen Linienbreite}{15}
-\contentsline {chapter}{\numberline {4}Literaturverzeichnis}{17}
+\contentsline {subsection}{\numberline {3.2.2}Bestimmung der nat\"urlichen Linienbreite und S\"attigungsintensit\"at}{15}
+\contentsline {chapter}{\numberline {4}Fehlerdiskussion}{18}
+\contentsline {section}{\numberline {4.1}dopplerfreie S\"attigungsspektroskopie}{18}
+\contentsline {chapter}{\numberline {5}Literaturverzeichnis}{19}
