@@ -1,0 +1,12 @@
+\chapter{Fehlerdiskussion}
+\section{dopplerfreie Sättigungsspektroskopie}
+
+Die Formel die wir in \eqref{eq:intensitaetleistung} verwendet haben um die Leistung des Pumpstrahls über deren \(\frak{1}{e^2}\) in Intensität
+umzurechnen. Wie schon im dem theoretischen Teil beschrieben ist diese Formel jedoch eine grobe Näherung, da man zuerst von einer Gaußverteilten Intensität
+ausgeht, aber dann annimmt die Intensität wäre konstant gleich der Amplitude \(I_0 \) der Gaußfunktion.
+
+Um sich dem theoretischen Model besser anzunähern könnte man mit Blenden arbeiten, mit denen man die Rände der Gaußfunktion abschneiden kann und somit
+den Unterschied zwischen gaußverteilter und konstanter Funktion zu senken.
+
+Wir mussten bei der Aufnahme der 87F2-Linien mehrere Male die Messung wiederholen, da wir mit einem sehr starken Gaußverteilten Untergrund zu kämpfen hatten, 
+den wir uns nicht ersteinmal erklären konnten.  
