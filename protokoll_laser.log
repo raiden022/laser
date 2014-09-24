@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  24 SEP 2014 19:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  24 SEP 2014 21:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -820,13 +820,13 @@ en der Energie-Zeit-Unschärferelation
 
 [4] [5] [6]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 232.
+(Font)              scaled to size 6.99199pt on input line 231.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 232.
+(Font)              scaled to size 5.51999pt on input line 231.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 232.
+(Font)              scaled to size 6.99199pt on input line 231.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 232.
+(Font)              scaled to size 5.51999pt on input line 231.
 ) [7]
 \openout2 = `kap02.aux'.
 
@@ -1037,7 +1037,7 @@ Anhang A.
 Here is how much of TeX's memory you used:
  6563 strings out of 493633
  93430 string characters out of 3143378
- 178909 words of memory out of 3000000
+ 178907 words of memory out of 3000000
  9598 multiletter control sequences out of 15000+200000
  105983 words of font info for 139 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -1051,7 +1051,7 @@ pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.p
 fb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local
 /texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on protokoll_laser.pdf (22 pages, 3041264 bytes).
+Output written on protokoll_laser.pdf (22 pages, 3041020 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
