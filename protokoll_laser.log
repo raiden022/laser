@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  18 SEP 2014 15:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  24 SEP 2014 19:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -535,6 +535,16 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2011/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count108
+\c@@ppsavesec=\count109
+\c@@ppsaveapp=\count110
+)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -549,9 +559,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count108
-\Gm@cntv=\count109
-\c@Gm@tempcnt=\count110
+\Gm@cnth=\count111
+\Gm@cntv=\count112
+\c@Gm@tempcnt=\count113
 \Gm@bindingoffset=\dimen125
 \Gm@wd@mp=\dimen126
 \Gm@odd@mp=\dimen127
@@ -564,75 +574,75 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 Package scrkbase Info: You've told me to extend the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 29.
+(scrkbase)             `disposition' on input line 30.
 
 \@input{command.aux}
 \openout2 = `command.aux'.
 
 (./command.tex) (./protokoll_laser.aux (./titlepage.aux) (./kap01.aux)
-(./kap02.aux) (./kap03.aux) (./kap04.aux) (./literatur.aux))
+(./kap02.aux) (./kap03.aux) (./kap04.aux) (./anhang.aux) (./literatur.aux))
 \openout1 = `protokoll_laser.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 34.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 35.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 35.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 35.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 35.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 35.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
+\scratchcounter=\count114
 \scratchdimen=\dimen133
 \scratchbox=\box31
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count114
+\MPscratchCnt=\count117
 \MPscratchDim=\dimen134
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
@@ -714,55 +724,55 @@ e
 \openout2 = `titlepage.aux'.
 
 (./titlepage.tex)
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 42.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 43.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 42.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 42
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 43.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 43
 .
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 42.
+(Font)              scaled to size 15.89755pt on input line 43.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 42.
+(Font)              scaled to size 11.03998pt on input line 43.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 42.
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+(Font)              scaled to size 8.27998pt on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 42.
+(Font)              scaled to size 15.89755pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 42.
+(Font)              scaled to size 11.03998pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 42.
+(Font)              scaled to size 8.27998pt on input line 43.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 42.
+(Font)              scaled to size 13.24796pt on input line 43.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 42.
+(Font)              scaled to size 9.19998pt on input line 43.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 42.
+(Font)              scaled to size 7.35999pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 42.
+(Font)              scaled to size 13.24796pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 42.
+(Font)              scaled to size 9.19998pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 42.
+(Font)              scaled to size 7.35999pt on input line 43.
  [1
 
 
@@ -780,8 +790,8 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 3.
 )
-\tf@toc=\write3
-\openout3 = `protokoll_laser.toc'.
+\tf@toc=\write4
+\openout4 = `protokoll_laser.toc'.
 
  [2
 
@@ -803,26 +813,20 @@ Package pdftex.def Info: ./Rb-D2-Hyperfein.pdf used on input line 20.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 40.
 
-Overfull \hbox (6.76173pt too wide) in paragraph at lines 41--45
+Overfull \hbox (6.76173pt too wide) in paragraph at lines 41--44
 \T1/futs/m/n/12 Die so-ge-nann-te na-tür-li-che Li-ni-en-brei-te ent-steht we-g
 en der Energie-Zeit-Unschärferelation
  []
 
-
-Overfull \hbox (1.93826pt too wide) in paragraph at lines 63--69
-[]\T1/futs/m/n/12 Die Sät-ti-gungs-ver-brei-te-rung kommt an-schau-lich da-durc
-h zu-stan-de, dass bei er-höh-ter ein-
- []
-
 [4] [5] [6]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 225.
+(Font)              scaled to size 6.99199pt on input line 232.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 225.
+(Font)              scaled to size 5.51999pt on input line 232.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 225.
+(Font)              scaled to size 6.99199pt on input line 232.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 225.
+(Font)              scaled to size 5.51999pt on input line 232.
 ) [7]
 \openout2 = `kap02.aux'.
 
@@ -917,7 +921,7 @@ LaTeX Warning: Float too large for page by 2.27327pt on input line 99.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13 <./dopplerfit-plot.pdf>] [14 <./xstrahlbreite.pdf> <./ystrahlbreite.pdf>]
-Overfull \hbox (5.62236pt too wide) in paragraph at lines 103--115
+Overfull \hbox (5.62236pt too wide) in paragraph at lines 103--116
 \T1/futs/m/n/12 die drei Crossover-Resonanzen, ei-ner Gauÿ-Funktion zur Nä-he-r
 ung des Si-gnal-un-ter-grunds
  []
@@ -925,7 +929,7 @@ ung des Si-gnal-un-ter-grunds
 <./400uW.pdf, id=147, 764.69307pt x 535.57433pt>
 File: ./400uW.pdf Graphic file (type pdf)
  <use ./400uW.pdf>
-Package pdftex.def Info: ./400uW.pdf used on input line 117.
+Package pdftex.def Info: ./400uW.pdf used on input line 118.
 (pdftex.def)             Requested size: 441.01773pt x 308.8763pt.
  [15
 
@@ -933,10 +937,10 @@ Package pdftex.def Info: ./400uW.pdf used on input line 117.
 File: ./mitformelfit.pdf Graphic file (type pdf)
 
 <use ./mitformelfit.pdf>
-Package pdftex.def Info: ./mitformelfit.pdf used on input line 133.
+Package pdftex.def Info: ./mitformelfit.pdf used on input line 134.
 (pdftex.def)             Requested size: 441.01773pt x 312.17938pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\T1/futs/m/n/12 Halbwertsbreiten $\FML/futm/m/it/12 ^^@$ \T1/futs/m/n/12 der 
 Lorentz-Resonanzen in Ab-hän-gig-keit der
  []
@@ -944,54 +948,54 @@ Lorentz-Resonanzen in Ab-hän-gig-keit der
 <./alle.png, id=164, 481.8pt x 234.8775pt>
 File: ./alle.png Graphic file (type png)
  <use ./alle.png>
-Package pdftex.def Info: ./alle.png used on input line 151.
+Package pdftex.def Info: ./alle.png used on input line 152.
 (pdftex.def)             Requested size: 441.01773pt x 215.0004pt.
 
 <./87F1.png, id=165, 415.5525pt x 234.8775pt>
 File: ./87F1.png Graphic file (type png)
  <use ./87F1.png>
-Package pdftex.def Info: ./87F1.png used on input line 154.
+Package pdftex.def Info: ./87F1.png used on input line 155.
 (pdftex.def)             Requested size: 220.50887pt x 124.635pt.
 
 <./85F2.png, id=166, 481.8pt x 234.8775pt>
 File: ./85F2.png Graphic file (type png)
  <use ./85F2.png>
-Package pdftex.def Info: ./85F2.png used on input line 157.
+Package pdftex.def Info: ./85F2.png used on input line 158.
 (pdftex.def)             Requested size: 220.50887pt x 107.49661pt.
 
 <./85F3.png, id=167, 481.8pt x 234.8775pt>
 File: ./85F3.png Graphic file (type png)
  <use ./85F3.png>
-Package pdftex.def Info: ./85F3.png used on input line 160.
+Package pdftex.def Info: ./85F3.png used on input line 161.
 (pdftex.def)             Requested size: 220.50887pt x 107.49661pt.
 
 <./87F2.png, id=168, 481.8pt x 234.8775pt>
 File: ./87F2.png Graphic file (type png)
  <use ./87F2.png>
-Package pdftex.def Info: ./87F2.png used on input line 163.
+Package pdftex.def Info: ./87F2.png used on input line 164.
 (pdftex.def)             Requested size: 220.50887pt x 107.49661pt.
 
-Overfull \hbox (4.96799pt too wide) in paragraph at lines 151--164
+Overfull \hbox (4.96799pt too wide) in paragraph at lines 152--165
 [][] 
  []
 
 
-Overfull \hbox (11.81998pt too wide) in paragraph at lines 151--164
+Overfull \hbox (11.81998pt too wide) in paragraph at lines 152--165
 [] [] 
  []
 
 
-Overfull \hbox (11.81998pt too wide) in paragraph at lines 151--164
+Overfull \hbox (11.81998pt too wide) in paragraph at lines 152--165
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--164
+Underfull \hbox (badness 10000) in paragraph at lines 152--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []\T1/futs/m/n/12 Identifizierung der Hy-perfe-in-struk-tur-li-ni-en und der Cr
 ossover-
  []
@@ -1007,43 +1011,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  (./kap04.tex
 Kapitel 4.
-) [18
+[18
 
 
 
-]
+]) [19]
+\openout2 = `anhang.aux'.
+
+ (./anhang.tex
+Anhang A.
+[20
+
+
+
+]) [21]
 \openout2 = `literatur.aux'.
 
- (./literatur.tex
-Kapitel 5.
-) [19
+ (./literatur.tex) [22
 
 
 
-] (./protokoll_laser.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
-(./kap03.aux) (./kap04.aux) (./literatur.aux)) ) 
+] (./protokoll_laser.aux (./titlepage.aux)
+(./kap01.aux) (./kap02.aux) (./kap03.aux) (./kap04.aux) (./anhang.aux)
+(./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 6402 strings out of 493633
- 90988 string characters out of 3143378
- 176205 words of memory out of 3000000
- 9454 multiletter control sequences out of 15000+200000
- 105024 words of font info for 136 fonts, out of 3000000 for 9000
+ 6563 strings out of 493633
+ 93430 string characters out of 3143378
+ 178909 words of memory out of 3000000
+ 9598 multiletter control sequences out of 15000+200000
+ 105983 words of font info for 139 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,14n,49p,494b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-
-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type
-1/public/fourier/fourier-bb.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/fourier/fourier-mex.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/fourier/fourier-ml.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/
-public/fourier/fourier-mlit.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/fourier/fourier-ms.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/
-adobe/utopia/putb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/u
-topia/putr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/p
-utri8a.pfb>
-Output written on protokoll_laser.pdf (19 pages, 3036733 bytes).
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-bb.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mex.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ml.p
+fb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-mlit.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/fourier/fourier-ms.p
+fb></usr/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local
+/texlive/2011/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on protokoll_laser.pdf (22 pages, 3041264 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
