@@ -1,0 +1,36 @@
+%\addchap{Anhang} \setcounter{chapter}{5}
+\begin{appendices}
+\chapter{Verwendete Fitfunktionen}
+\section{Dopplerverbreiterung}
+
+Multi-Gauß-Fit-Funktion für das dopplerverbreiterte 85F2-85F3-87F2-Spektrum:
+
+\begin{equation}
+	\begin{split}
+		I_{\text{abs}}(x) =  \quad&A& ( &28\exp\left(-\frac{(x-x_0)^2}{w^2} \right)  \\
+		&&+ &35\exp \left( -\frac{(x-x_0-\frac{63}{3036}s)^2}{w^2} \right) 	\\
+		&&+ &27\exp \left( -\frac{(x-x_0-\frac{93}{3036}s)^2}{w^2} \right)  ) \\
+		+ & B& ( &81\exp \left( -\frac{(x-x_0-(1-\frac{121}{3036})s)^2}{w^2} \right) 	\\
+				&&+ &35\exp \left(-\frac{(x-x_0-s)^2}{w^2} \right)					\\
+				&&+ &10\exp \left(-\frac{(x-x_0-(1+\frac{63}{3036})s)^2}{w^2} \right) ) \\
+		+ &C&( &\exp \left(-\frac{(x-x_c)^2}{w_c^2} \right) )
+		\end{split}
+\end{equation}
+\newpage
+\section{Dopplerfreie Sättigungsspektroskopie}
+
+Multi-Lorentz-Funktion für das 87F2-Spektrum:
+
+\begin{equation}
+	\begin{split}
+		I_{\text{abs}}(x) &=&  \frac A{(x-x_0)^2+(\frac\Gamma2)^2}	\\
+							&&+	 \frac B{(x-x_0-\frac{267}2 s)^2+(\frac\Gamma2)^2} \\
+							&&+	 \frac C{(x-x_0-\frac{424}2 s)^2+(\frac\Gamma2)^2} \\
+							&&+	 \frac D{(x-x_0-267 s)^2+(\frac\Gamma2)^2} \\
+							&&+	 \frac E{(x-x_0-(267+\frac{157}2) s)^2+(\frac\Gamma2)^2} \\
+							&&+	 \frac F{(x-x_0- 424 s)^2+(\frac\Gamma2)^2} \\
+							&&+  A_G \exp(-\frac{(x-x_{0,G})^2}{g_w}) \\
+							&&+	 y_0
+		\end{split}
+\end{equation}
+\end{appendices}
